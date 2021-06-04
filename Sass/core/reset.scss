@@ -1,4 +1,4 @@
-#{map-get($selectorMap, global)} {
+#{selector(global)} {
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -8,11 +8,11 @@
   box-sizing: border-box;
 }
 
-#{map-get($selectorMap, body)} {
+#{selector(body)} {
   font: Cambria, Georgia;
 }
 
-#{map-get($selectorMap, globalimg)} {
+#{selector(globalimg)} {
   width: 100%;
   max-width: 100%;
   height: auto;
