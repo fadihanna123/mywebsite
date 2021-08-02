@@ -1,0 +1,11 @@
+// Selectors
+$selectorMap: (
+  global: "*",
+  globalimg: "img",
+  body: "body",
+);
+
+// Functions
+@function selector($slc) {
+  @return map-get($selectorMap, $slc);
+}
